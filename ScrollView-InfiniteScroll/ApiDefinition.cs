@@ -16,7 +16,7 @@ namespace ScrollViewInfiniteScroll
         InfiniteScrollDirection InfiniteScrollDirection();
 
         [Export("setInfiniteScrollDirection:")]
-        void InfiniteScrollDirection(InfiniteScrollDirection direction);
+        void SetInfiniteScrollDirection(InfiniteScrollDirection direction);
 
         // @property (readonly, getter = isAnimatingInfiniteScroll, nonatomic) BOOL animatingInfiniteScroll;
         //[Export("animatingInfiniteScroll")]
@@ -28,28 +28,28 @@ namespace ScrollViewInfiniteScroll
         UIActivityIndicatorViewStyle InfiniteScrollIndicatorStyle();
 
         [Export("setInfiniteScrollIndicatorStyle:")]
-        void InfiniteScrollIndicatorStyle(UIActivityIndicatorViewStyle style);
+        void SetInfiniteScrollIndicatorStyle(UIActivityIndicatorViewStyle style);
 
         // @property (nonatomic) UIView * _Nullable infiniteScrollIndicatorView;
         [Export("infiniteScrollIndicatorView")]
         UIView InfiniteScrollIndicatorView();
 
         [Export("setInfiniteScrollIndicatorView:")]
-        void InfiniteScrollIndicatorView(UIView indicator);
+        void SetInfiniteScrollIndicatorView(UIView indicator);
 
         // @property (nonatomic) CGFloat infiniteScrollIndicatorMargin;
         [Export("infiniteScrollIndicatorMargin")]
         nfloat InfiniteScrollIndicatorMargin();
 
         [Export("setInfiniteScrollIndicatorMargin:")]
-        void InfiniteScrollIndicatorMargin(nfloat margin);
+        void SetInfiniteScrollIndicatorMargin(nfloat margin);
 
         // @property (nonatomic) CGFloat infiniteScrollTriggerOffset;
         [Export("infiniteScrollTriggerOffset")]
         nfloat InfiniteScrollTriggerOffset();
 
         [Export("setInfiniteScrollTriggerOffset:")]
-        void InfiniteScrollTriggerOffset(nfloat offset);
+        void SetInfiniteScrollTriggerOffset(nfloat offset);
 
         // -(void)addInfiniteScrollWithHandler:(void (^ _Nonnull)(UIScrollView * _Nonnull))handler;
         [Export("addInfiniteScrollWithHandler:")]

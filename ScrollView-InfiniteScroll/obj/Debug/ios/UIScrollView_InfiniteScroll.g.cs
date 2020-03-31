@@ -120,29 +120,11 @@ namespace ScrollViewInfiniteScroll {
 			return ret;
 		}
 		
-		[Export ("setInfiniteScrollDirection:")]
-		[BindingImpl (BindingImplOptions.GeneratedCode | BindingImplOptions.Optimizable)]
-		public static void InfiniteScrollDirection (this global::UIKit.UIScrollView This, InfiniteScrollDirection direction)
-		{
-			if (IntPtr.Size == 8) {
-				global::ApiDefinition.Messaging.void_objc_msgSend_UInt64 (This.Handle, Selector.GetHandle ("setInfiniteScrollDirection:"), (UInt64)direction);
-			} else {
-				global::ApiDefinition.Messaging.void_objc_msgSend_UInt32 (This.Handle, Selector.GetHandle ("setInfiniteScrollDirection:"), (UInt32)direction);
-			}
-		}
-		
 		[Export ("infiniteScrollIndicatorMargin")]
 		[BindingImpl (BindingImplOptions.GeneratedCode | BindingImplOptions.Optimizable)]
 		public static nfloat InfiniteScrollIndicatorMargin (this global::UIKit.UIScrollView This)
 		{
 			return global::ApiDefinition.Messaging.nfloat_objc_msgSend (This.Handle, Selector.GetHandle ("infiniteScrollIndicatorMargin"));
-		}
-		
-		[Export ("setInfiniteScrollIndicatorMargin:")]
-		[BindingImpl (BindingImplOptions.GeneratedCode | BindingImplOptions.Optimizable)]
-		public static void InfiniteScrollIndicatorMargin (this global::UIKit.UIScrollView This, nfloat margin)
-		{
-			global::ApiDefinition.Messaging.void_objc_msgSend_nfloat (This.Handle, Selector.GetHandle ("setInfiniteScrollIndicatorMargin:"), margin);
 		}
 		
 		[Export ("infiniteScrollIndicatorStyle")]
@@ -158,31 +140,11 @@ namespace ScrollViewInfiniteScroll {
 			return ret;
 		}
 		
-		[Export ("setInfiniteScrollIndicatorStyle:")]
-		[BindingImpl (BindingImplOptions.GeneratedCode | BindingImplOptions.Optimizable)]
-		public static void InfiniteScrollIndicatorStyle (this global::UIKit.UIScrollView This, global::UIKit.UIActivityIndicatorViewStyle style)
-		{
-			if (IntPtr.Size == 8) {
-				global::ApiDefinition.Messaging.void_objc_msgSend_Int64 (This.Handle, Selector.GetHandle ("setInfiniteScrollIndicatorStyle:"), (Int64)style);
-			} else {
-				global::ApiDefinition.Messaging.void_objc_msgSend_int (This.Handle, Selector.GetHandle ("setInfiniteScrollIndicatorStyle:"), (int)style);
-			}
-		}
-		
 		[Export ("infiniteScrollIndicatorView")]
 		[BindingImpl (BindingImplOptions.GeneratedCode | BindingImplOptions.Optimizable)]
 		public static global::UIKit.UIView InfiniteScrollIndicatorView (this global::UIKit.UIScrollView This)
 		{
 			return  Runtime.GetNSObject<global::UIKit.UIView> (global::ApiDefinition.Messaging.IntPtr_objc_msgSend (This.Handle, Selector.GetHandle ("infiniteScrollIndicatorView")));
-		}
-		
-		[Export ("setInfiniteScrollIndicatorView:")]
-		[BindingImpl (BindingImplOptions.GeneratedCode | BindingImplOptions.Optimizable)]
-		public static void InfiniteScrollIndicatorView (this global::UIKit.UIScrollView This, global::UIKit.UIView indicator)
-		{
-			if (indicator == null)
-				throw new ArgumentNullException ("indicator");
-			global::ApiDefinition.Messaging.void_objc_msgSend_IntPtr (This.Handle, Selector.GetHandle ("setInfiniteScrollIndicatorView:"), indicator.Handle);
 		}
 		
 		[Export ("infiniteScrollTriggerOffset")]
@@ -192,18 +154,56 @@ namespace ScrollViewInfiniteScroll {
 			return global::ApiDefinition.Messaging.nfloat_objc_msgSend (This.Handle, Selector.GetHandle ("infiniteScrollTriggerOffset"));
 		}
 		
-		[Export ("setInfiniteScrollTriggerOffset:")]
-		[BindingImpl (BindingImplOptions.GeneratedCode | BindingImplOptions.Optimizable)]
-		public static void InfiniteScrollTriggerOffset (this global::UIKit.UIScrollView This, nfloat offset)
-		{
-			global::ApiDefinition.Messaging.void_objc_msgSend_nfloat (This.Handle, Selector.GetHandle ("setInfiniteScrollTriggerOffset:"), offset);
-		}
-		
 		[Export ("removeInfiniteScroll")]
 		[BindingImpl (BindingImplOptions.GeneratedCode | BindingImplOptions.Optimizable)]
 		public static void RemoveInfiniteScroll (this global::UIKit.UIScrollView This)
 		{
 			global::ApiDefinition.Messaging.void_objc_msgSend (This.Handle, Selector.GetHandle ("removeInfiniteScroll"));
+		}
+		
+		[Export ("setInfiniteScrollDirection:")]
+		[BindingImpl (BindingImplOptions.GeneratedCode | BindingImplOptions.Optimizable)]
+		public static void SetInfiniteScrollDirection (this global::UIKit.UIScrollView This, InfiniteScrollDirection direction)
+		{
+			if (IntPtr.Size == 8) {
+				global::ApiDefinition.Messaging.void_objc_msgSend_UInt64 (This.Handle, Selector.GetHandle ("setInfiniteScrollDirection:"), (UInt64)direction);
+			} else {
+				global::ApiDefinition.Messaging.void_objc_msgSend_UInt32 (This.Handle, Selector.GetHandle ("setInfiniteScrollDirection:"), (UInt32)direction);
+			}
+		}
+		
+		[Export ("setInfiniteScrollIndicatorMargin:")]
+		[BindingImpl (BindingImplOptions.GeneratedCode | BindingImplOptions.Optimizable)]
+		public static void SetInfiniteScrollIndicatorMargin (this global::UIKit.UIScrollView This, nfloat margin)
+		{
+			global::ApiDefinition.Messaging.void_objc_msgSend_nfloat (This.Handle, Selector.GetHandle ("setInfiniteScrollIndicatorMargin:"), margin);
+		}
+		
+		[Export ("setInfiniteScrollIndicatorStyle:")]
+		[BindingImpl (BindingImplOptions.GeneratedCode | BindingImplOptions.Optimizable)]
+		public static void SetInfiniteScrollIndicatorStyle (this global::UIKit.UIScrollView This, global::UIKit.UIActivityIndicatorViewStyle style)
+		{
+			if (IntPtr.Size == 8) {
+				global::ApiDefinition.Messaging.void_objc_msgSend_Int64 (This.Handle, Selector.GetHandle ("setInfiniteScrollIndicatorStyle:"), (Int64)style);
+			} else {
+				global::ApiDefinition.Messaging.void_objc_msgSend_int (This.Handle, Selector.GetHandle ("setInfiniteScrollIndicatorStyle:"), (int)style);
+			}
+		}
+		
+		[Export ("setInfiniteScrollIndicatorView:")]
+		[BindingImpl (BindingImplOptions.GeneratedCode | BindingImplOptions.Optimizable)]
+		public static void SetInfiniteScrollIndicatorView (this global::UIKit.UIScrollView This, global::UIKit.UIView indicator)
+		{
+			if (indicator == null)
+				throw new ArgumentNullException ("indicator");
+			global::ApiDefinition.Messaging.void_objc_msgSend_IntPtr (This.Handle, Selector.GetHandle ("setInfiniteScrollIndicatorView:"), indicator.Handle);
+		}
+		
+		[Export ("setInfiniteScrollTriggerOffset:")]
+		[BindingImpl (BindingImplOptions.GeneratedCode | BindingImplOptions.Optimizable)]
+		public static void SetInfiniteScrollTriggerOffset (this global::UIKit.UIScrollView This, nfloat offset)
+		{
+			global::ApiDefinition.Messaging.void_objc_msgSend_nfloat (This.Handle, Selector.GetHandle ("setInfiniteScrollTriggerOffset:"), offset);
 		}
 		
 		[Export ("setShouldShowInfiniteScrollHandler:")]
