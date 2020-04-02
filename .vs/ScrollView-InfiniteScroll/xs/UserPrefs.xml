@@ -1,23 +1,23 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="ScrollView-InfiniteScroll/ApiDefinition.cs">
+﻿<Properties StartupConfiguration="{D5EC4355-8F79-4917-985E-9A01ADF86BD6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="InfiniteScrollDemo/ViewController.cs">
     <Files>
-      <File FileName="ScrollView-InfiniteScroll/obj/Debug/ios/UIScrollView_InfiniteScroll.g.cs" Line="228" Column="1" />
-      <File FileName="ScrollView-InfiniteScroll/ApiDefinition.cs" Line="46" Column="1" />
+      <File FileName="InfiniteScrollDemo/ViewController.cs" Line="46" Column="51" />
+      <File FileName="InfiniteScrollDemo/AppDelegate.cs" Line="22" Column="1" />
+      <File FileName="InfiniteScrollDemo/Info.plist" />
+      <File FileName="InfiniteScrollDemo/DataSource.cs" Line="13" Column="1" />
+      <File FileName="InfiniteScrollDemo/Main.cs" Line="12" Column="1" />
+      <File FileName="InfiniteScrollDemo/Entitlements.plist" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ScrollView-InfiniteScroll" expanded="True">
-            <Node name="ScrollView-InfiniteScroll" expanded="True">
-              <Node name="NativeReferenceFolder" expanded="True" />
-              <Node name="ApiDefinition.cs" selected="True" />
-            </Node>
-          </Node>
+          <Node name="ScrollView-InfiniteScroll" expanded="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.InfiniteScrollDemo automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.FE351A05-D48B-4F33-932C-73010186FEF6" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
