@@ -6,7 +6,7 @@ namespace InfiniteScrollDemo
 {
     public class DataSource : UITableViewDataSource
     {
-        public int NumberOfRows { get; set; } = 20;
+        public int NumberOfRows { get; set; } = 35;
 
         public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath)
         {

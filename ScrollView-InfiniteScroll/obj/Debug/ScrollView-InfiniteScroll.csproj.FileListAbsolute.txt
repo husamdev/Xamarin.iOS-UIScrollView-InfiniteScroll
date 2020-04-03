@@ -3,4 +3,3 @@
 /Users/eyemails-mac/Desktop/Projects/ScrollView-InfiniteScroll/ScrollView-InfiniteScroll/obj/Debug/ScrollView-InfiniteScroll.csproj.CoreCompileInputs.cache
 /Users/eyemails-mac/Desktop/Projects/ScrollView-InfiniteScroll/ScrollView-InfiniteScroll/obj/Debug/NativeLibrary.dll
 /Users/eyemails-mac/Desktop/Projects/ScrollView-InfiniteScroll/ScrollView-InfiniteScroll/obj/Debug/NativeLibrary.pdb
-/Users/eyemails-mac/Desktop/Projects/ScrollView-InfiniteScroll/ScrollView-InfiniteScroll/obj/Debug/ScrollView-InfiniteScroll.csprojAssemblyReference.cache

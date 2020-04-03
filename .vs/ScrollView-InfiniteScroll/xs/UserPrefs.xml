@@ -1,17 +1,23 @@
 ﻿<Properties StartupConfiguration="{D5EC4355-8F79-4917-985E-9A01ADF86BD6}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="InfiniteScrollDemo/ViewController.cs">
     <Files>
-      <File FileName="InfiniteScrollDemo/ViewController.cs" Line="46" Column="51" />
-      <File FileName="InfiniteScrollDemo/AppDelegate.cs" Line="22" Column="1" />
+      <File FileName="InfiniteScrollDemo/ViewController.cs" Line="53" Column="55" />
+      <File FileName="InfiniteScrollDemo/AppDelegate.cs" />
       <File FileName="InfiniteScrollDemo/Info.plist" />
-      <File FileName="InfiniteScrollDemo/DataSource.cs" Line="13" Column="1" />
-      <File FileName="InfiniteScrollDemo/Main.cs" Line="12" Column="1" />
+      <File FileName="InfiniteScrollDemo/DataSource.cs" Line="9" Column="51" />
+      <File FileName="InfiniteScrollDemo/Main.cs" />
       <File FileName="InfiniteScrollDemo/Entitlements.plist" />
+      <File FileName="ScrollView-InfiniteScroll/ApiDefinition.cs" Line="90" Column="53" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ScrollView-InfiniteScroll" expanded="True" />
+          <Node name="ScrollView-InfiniteScroll" expanded="True">
+            <Node name="InfiniteScrollDemo" expanded="True">
+              <Node name="ViewController.cs" selected="True" />
+            </Node>
+            <Node name="ScrollView-InfiniteScroll" expanded="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>

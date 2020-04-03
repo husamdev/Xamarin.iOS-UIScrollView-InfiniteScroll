@@ -40,14 +40,20 @@ namespace InfiniteScrollDemo
         {
             this.tableView.SetInfiniteScrollIndicatorView(new UIActivityIndicatorView(UIActivityIndicatorViewStyle.Gray));
 
-            this.tableView.AddInfiniteScrollWithHandler((scrollView) =>
+            this.tableView.AddInfiniteScrollWithHandler(table =>
             {
                 // update table view
-                this.dataSource.NumberOfRows += 35;
-                this.tableView.ReloadData();
+                (table.DataSource as DataSource).NumberOfRows += 35;
+                table.ReloadData();
 
                 // finish infinite scroll animation
-                this.tableView.FinishInfiniteScroll();
+                table.FinishInfiniteScroll();
+            });
+
+            this.tableView.SetShouldShowInfiniteScrollHandler(table =>
+            {
+                var numOfRows = (table.DataSource as DataSource).NumberOfRows;
+                return numOfRows < 150;
             });
         }
     }
